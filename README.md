@@ -14,11 +14,11 @@ Key objectives:
 
 - Identify High-Risk Diagnoses: Determine which primary diagnoses correlate with the highest readmission rates.
 
-Analyze Demographic Trends: Evaluate how age and diagnosis type interact to impact patient risk.
+- Analyze Demographic Trends: Evaluate how age and diagnosis type interact to impact patient risk.
 
-Assess Treatment Impact: Quantify the relationship between medication changes (or lack thereof) and the likelihood of a 30-day readmission.
+- Assess Treatment Impact: Quantify the relationship between medication changes (or lack thereof) and the likelihood of a 30-day readmission.
 
-Benchmark Performance: Compare departmental performance (Specialties) against the hospital-wide readmission average.
+- Benchmark Performance: Compare departmental performance (Specialties) against the hospital-wide readmission average.
 
 ---
 
@@ -34,11 +34,11 @@ The analysis uses a comprehensive healthcare dataset covering 10 years of clinic
 
 Key tables used in PostgreSQL:
 
-    Clinical Encounters: Patient visit details including diagnosis, length of stay, and specialty.
+    - Clinical Encounters: Patient visit details including diagnosis, length of stay, and specialty.
 
-    Demographics: Age groups and patient identifiers.
+    - Demographics: Age groups and patient identifiers.
 
-    Medication Data: Tracking changes in diabetic medications and insulin administration.
+    - Medication Data: Tracking changes in diabetic medications and insulin administration.
 
 Note: Data was filtered to exclude deceased patients and those discharged to hospice to ensure an accurate study of preventable readmissions.
 
@@ -47,11 +47,11 @@ Note: Data was filtered to exclude deceased patients and those discharged to hos
 ## 🧹 Data Cleaning & Preparation
 Data was cleaned and transformed using PostgreSQL. Key steps included:
 
-    Handling Nulls: Identified and managed missing values in clinical fields like weight and medical_specialty.
+    - Handling Nulls: Identified and managed missing values in clinical fields like weight and medical_specialty.
 
-    Data Normalization: Created views to join patient demographics with clinical encounter results.
+    - Data Normalization: Created views to join patient demographics with clinical encounter results.
 
-    Schema Correction: Verified and corrected column references (e.g., distinguishing between admission_type and descriptive IDs).
+    - Schema Correction: Verified and corrected column references (e.g., distinguishing between admission_type and descriptive IDs).
 
 ---
 
@@ -123,10 +123,10 @@ Hospitals have limited beds and staff. Every "preventable" readmission takes awa
 
 ## 🔑 Why This Matter
 
-1. Identifying a 13.1% readmission risk points to where the hospital is losing money throuhg federal penaltis.
+1. Identifying a 13.1% readmission risk points to where the hospital is losing money through federal penaltis.
 2. Treating a patient a second time for the same issue often costs more than the initial stay, as the patient’s condition may have worsened.
 3. Implementing a policy to require a medication review for all diabetic patients could directly save lives and prevent the physical and emotional stress of a patient having to return to the ER just days after being discharged.
-4. Operational efficiency can be improved. By hospital can study what Cardiology is doing differently and apply those discharge protocols to the higher-risk Diabetes units. 
+4. Operational efficiency can be improved. The hospital can study what Cardiology is doing differently and apply those discharge protocols to the higher-risk Diabetes units. 
 ---
 
 ### Analyst Note: This analysis provides a roadmap for reducing federal penalties and improving patient health outcomes by targeting high-risk diabetic medication protocols.
@@ -142,8 +142,8 @@ Hospitals have limited beds and staff. Every "preventable" readmission takes awa
 
 
 ## ⚠️ Challenges
-- Dealing with a large dataset, with over 100,000 entries
-- Handling missing specialist data from about 50% of the entries.
+- Large dataset: Utilized PostgreSQL to efficiently handle 100,000+ entries
+- Missing specialist data: Categorized the missing data as "other" or "Unknown" to avoid skewing the specialty benchmarking
 
 ---
 
