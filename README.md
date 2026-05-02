@@ -74,22 +74,30 @@ Top Performing Specialty: Cardiology (Maintained rates significantly below the h
 ## 🔍 Detailed Insights
 
 # High-Risk Clinical Profile: The Diabetes Outlier
-(visualizations/DX risk.png)
+<p align="center">
+  <img src="visualizations/DX risk.png" alt="Diagnosis Risk Bar Chart" width="800">
+</p>
 
 The analysis identified Diabetes as the primary driver of readmission risk among all diagnosis groups. While the hospital's overall average readmission rate sits at 11.2%, diabetic patients exhibit a significantly higher risk at 13.1%. This suggests that current discharge protocols may not sufficiently account for the complexities of diabetic self-care or post-discharge glucose management.
 
 # The "Treatment Gap": Impact of Medication Stagnation
-(visualizations/Meds.png)
+<p align="center">
+  <img src="visualizations/Meds.png" alt="Readmission Medication Barchart" width="800">
+</p>
 
 A critical finding emerged when analyzing medication changes: patients who had no changes to their diabetic medications during their stay showed a 15% readmission rate. Conversely, patients with documented adjustments to their treatment plans saw lower rates. This "Treatment Gap" indicates that maintaining a static clinical approach during an acute encounter is a leading indicator for patient return within 30 days.
 
 # Specialty Benchmarking: Cardiology vs. General Care
-(visualizations/Efficiency vs Risk.png)
+<p align="center">
+  <img src="visualizations/Efficiency vs Risk.png" alt="Efficiency vs Risk Scatter plot" width="800">
+</p>
+
 
 By benchmarking clinical specialties, the data reveals that Cardiology consistently maintains readmission rates below the hospital average, even when treating high-risk patients. This high performance suggests that the specialized discharge and follow-up protocols used in Cardiology could potentially be modeled and scaled to other departments to lower the overall hospital-wide readmission rate.
 ---
 
 ## 💡 Recommendations
+
 To reduce the 15% risk identified in the "Treatment Gap," the hospital should implement a mandatory medication review for all diabetic patients prior to discharge, specifically targeting those whose prescriptions remained unchanged during their stay.
 ---
 
