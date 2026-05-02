@@ -94,11 +94,13 @@ A critical finding emerged when analyzing medication changes: patients who had n
 
 
 By benchmarking clinical specialties, the data reveals that Cardiology consistently maintains readmission rates below the hospital average, even when treating high-risk patients. This high performance suggests that the specialized discharge and follow-up protocols used in Cardiology could potentially be modeled and scaled to other departments to lower the overall hospital-wide readmission rate.
+
 ---
 
 ## 💡 Recommendations
 
 To reduce the 15% risk identified in the "Treatment Gap," the hospital should implement a mandatory medication review for all diabetic patients prior to discharge, specifically targeting those whose prescriptions remained unchanged during their stay.
+
 ---
 
 ## 📈 Business Impact
