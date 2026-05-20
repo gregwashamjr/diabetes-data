@@ -69,7 +69,7 @@ Top Performing Specialty: Cardiology (Maintained rates significantly below the h
 [View on Tableau Public](https://public.tableau.com/app/profile/greg.washam/viz/DiabetesDataAnalysis_17775820265220/HospitalReadmissionAnalysisIdentifyingHigh-RiskFactorsforDiabeticPatients_)
 
 ## 📸 Dashboard Preview
-![Dashboard Preview](visualizations/Hospital Readmission Analysis_ Identifying High-Risk Factors for Diabetic Patients..png)
+![Dashboard Preview](visualizations/diabetes-dashboard-main%20(2).png)
 
 ## 🔍 Detailed Insights
 
