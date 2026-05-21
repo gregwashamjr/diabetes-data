@@ -69,27 +69,29 @@ Top Performing Specialty: Cardiology (Maintained rates significantly below the h
 [View on Tableau Public](https://public.tableau.com/app/profile/greg.washam/viz/DiabetesDataAnalysis_17775820265220/HospitalReadmissionAnalysisIdentifyingHigh-RiskFactorsforDiabeticPatients_)
 
 ## 📸 Dashboard Preview
-![Dashboard Preview](visualizations/diabetes-dashboard-main%20(2).png)
+<p align="center">
+  <img src="visualizations/diabetes-dashboard-main-V2.png" alt="Third Party Payer Reimbursemnt Dashboard" width="800">
+</p>
 
 ## 🔍 Detailed Insights
 
 # High-Risk Clinical Profile: The Diabetes Outlier
 <p align="center">
-  <img src="visualizations/DX risk.png" alt="Diagnosis Risk Bar Chart" width="800">
+  <img src="visualizations/DX risk V2.png" alt="Diagnosis Risk Bar Chart" width="800">
 </p>
 
 The analysis identified Diabetes as the primary driver of readmission risk among all diagnosis groups. While the hospital's overall average readmission rate sits at 11.2%, diabetic patients exhibit a significantly higher risk at 13.1%. This suggests that current discharge protocols may not sufficiently account for the complexities of diabetic self-care or post-discharge glucose management.
 
 # The "Treatment Gap": Impact of Medication Stagnation
 <p align="center">
-  <img src="visualizations/Meds.png" alt="Readmission Medication Barchart" width="800">
+  <img src="visualizations/Meds V2.png" alt="Readmission Medication Barchart" width="800">
 </p>
 
 A critical finding emerged when analyzing medication changes: patients who had no changes to their diabetic medications during their stay showed a 15% readmission rate. Conversely, patients with documented adjustments to their treatment plans saw lower rates. This "Treatment Gap" indicates that maintaining a static clinical approach during an acute encounter is a leading indicator for patient return within 30 days.
 
 # Specialty Benchmarking: Cardiology vs. General Care
 <p align="center">
-  <img src="visualizations/Efficiency vs Risk.png" alt="Efficiency vs Risk Scatter plot" width="800">
+  <img src="visualizations/Efficiency vs Risk V2.png" alt="Efficiency vs Risk Scatter plot" width="800">
 </p>
 
 
